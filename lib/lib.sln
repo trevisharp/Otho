@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OthoLib", "OthoLib.csproj", "{6C90E1C3-6489-49C9-A844-D11960AB3361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C90E1C3-6489-49C9-A844-D11960AB3361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C90E1C3-6489-49C9-A844-D11960AB3361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C90E1C3-6489-49C9-A844-D11960AB3361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C90E1C3-6489-49C9-A844-D11960AB3361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9057F6B5-6B72-4B1C-AF08-2962CE666C39}
+	EndGlobalSection
+EndGlobal
