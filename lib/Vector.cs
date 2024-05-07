@@ -1,15 +1,18 @@
 using System.Runtime.CompilerServices;
 
-namespace Otho.Internal;
+namespace Otho;
 
-internal readonly unsafe struct Vector
+/// <summary>
+/// Represents a vector of integers.
+/// </summary>
+public readonly unsafe struct Vector
 {
     readonly int* pool;
 
-    internal Vector(int* pool)
+    public Vector(int* pool)
         => this.pool = pool;
 
-    internal readonly int this[int index]
+    public readonly int this[int index]
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         get => pool[index];

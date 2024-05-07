@@ -19,9 +19,9 @@ using Internal;
 /// </summary>
 public readonly struct Board
 {
-    readonly Vector vector;
+    public readonly Vector Data;
     public Board()
-        => this.vector = Pool.Shared.Rent();
+        => this.Data = Pool.Shared.Rent();
 
     public readonly IEnumerable<Board> Next
     {
